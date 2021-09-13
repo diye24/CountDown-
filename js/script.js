@@ -38,12 +38,12 @@ function displayTime1() {
 	var nowYear=now.getFullYear();
 	var nowMonth=now.getMonth()+1;
 	var nowDay=now.getDate();
-	var endTime = new Date("2021/06/11" + " " + hourtime);
+	var endTime = new Date("2021/12/30" + " " + hourtime);
 	var leftTime = endTime.getTime() - now.getTime();
 
 	if(leftTime < 0) 
 	{
-	elt.innerHTML = "端午假期已经过去了，期待中秋假期吧";
+	elt.innerHTML = " ";
 	}
 	 else 
 	{
